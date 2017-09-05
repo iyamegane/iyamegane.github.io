@@ -5,6 +5,8 @@
   sublinks:
     - title: Digital
       url: /digital.html
+    - title: Photography
+      url: /photography.html
 - title: "About"
   url: /about/
   excerpt: "About"
