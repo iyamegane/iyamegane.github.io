@@ -2,7 +2,7 @@
 
 - title: Portfolio
   url: /portfolio.html
-  sublinks:
+  subcategories:
     - title: Digital
       url: /digital.html
     - title: Photography
