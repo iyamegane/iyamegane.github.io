@@ -1,12 +1,12 @@
 <nav>
   <ul>
     {% for nav in site.data.nav %}
-      {% if nav.sublinks != null %}
+      {% if nav.subcategories != null %}
         <li>
           <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
           <ul>
-          {% for subsublink in nav.sublinks %}
-            <li><a href="{{ site.url }}{{ sublink.subhref }}">{{ sublink.subtitle }}</a></li>
+          {% for subcategory in nav.subcategories %}
+            <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
           {% endfor %}
           </ul>
         </li>
