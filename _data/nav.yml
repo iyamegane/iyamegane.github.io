@@ -1,10 +1,10 @@
 # Site navigation links
-- title: Portfolio
+- title: "Portfolio"
   href: "/portfolio/"
   subcategories:
-    - subtitle: Digital
+    - subtitle: "Digital"
       subhref: "/digital/"
-    - subtitle: Photography
+    - subtitle: "Photography"
       subhref: "/photography/"
 - title: "About"
   href: "/about/"
