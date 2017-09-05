@@ -3,10 +3,10 @@
 - title: Portfolio
   href: /portfolio.html
   subcategories:
-    - title: Digital
-      href: /digital.html
-    - title: Photography
-      href: /photography.html
+    - subtitle: Digital
+      subhref: /digital.html
+    - subtitle: Photography
+      subhref: /photography.html
 - title: "About"
   href: /about/
   excerpt: "About"
