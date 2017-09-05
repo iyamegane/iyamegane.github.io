@@ -12,7 +12,7 @@
 // Navbar wrap
 .navbar {
   height: 200;
-  background-color: $navbar-color;
+  background-color: black;
 }
 
 // Main navigation bar
@@ -37,16 +37,16 @@
 // Main navigation links
 #nav>.primary-nav>li>a {
 	/* Layout */
-	line-height: $navbar-height;
+	line-height: 200;
 	display: block;
 	padding: 0 22px;
 	border-color: #aaa;
 
 	/* Typography */
-	font-family: $navbar-font-family;
-	font-size: $navbar-font-size;
+	font-family: Gill Sans Extrabold, sans-serif;
+	font-size: 20;
 	font-weight: 700;
-	color: $secondary-color;
+	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
 	
@@ -60,13 +60,13 @@
 
 // Hover state of the links
 #nav>.primary-nav>li:hover>a {
-	color: $navbar-hover-color;
+	color: black;
 	border-top-color: #fff;
 }
 
 // Active state of the links
 #nav>.primary-nav>li.active {
-	background-color: $navbar-active-color;
+	background-color: gray;
 }
 
 #nav>.primary-nav>li.dropdown>a {
@@ -94,7 +94,7 @@
 	top: $navbar-height;
 	left: -9999px;
 	opacity: 0;
-	background: $navbar-color;
+	background: black;
 	cursor: pointer;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
@@ -138,7 +138,7 @@
 	font-family: $navbar-font-family;
 	font-size: ($navbar-font-size * .92);
 	text-decoration: none;
-	color: $secondary-color;
+	color: white;
 	font-weight: 400;
 	
 	/* Background & effects */
@@ -152,7 +152,7 @@
 
 // Change the link color on hover
 #nav .primary-nav ul li:hover>a {
-	color: $navbar-hover-color;
+	color: gray;
 }
 
 .nav ul ul {
@@ -166,7 +166,7 @@
 		width: 100%;
 		max-width: 768px;
 		height: auto;
-		background: $navbar-color;
+		background: black;
 	}
 
 	#nav .primary-nav li {
@@ -243,8 +243,8 @@
 		top: 21px;
 		height: 9px;
 		width: 20px;
-		border-top: 2px solid $secondary-color;
-		border-bottom: 2px solid $secondary-color;
+		border-top: 2px solid white;
+		border-bottom: 2px solid white;
 		z-index: 1;
 	}
 
@@ -255,21 +255,21 @@
 		top: 13px;
 		height: 3px;
 		width: 20px;
-		border-bottom: 2px solid $secondary-color;
+		border-bottom: 2px solid white;
 		z-index: 1;
 	}
 
 	#hideMenu>a::after, #hideMenu>a::before {
-		border-color: $secondary-color;
+		border-color: white;
 	}
 	
 	.navbar {
-	  background-color: $navbar-color;
+	  background-color: black;
 	  height: 44px;
 	  display: inline;
 	}
  
 	#nav>.right.primary-nav  {
-	  background-color: lighten($navbar-color, 10%);
+	  background-color: lighten(black, 10%);
 	}
 } 
