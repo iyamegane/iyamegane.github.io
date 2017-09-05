@@ -1,7 +1,10 @@
 # Site navigation links
 
-- title: "Portfolio"
-  url: "/portfolio/"
+- title: Portfolio
+  url: /portfolio.html
+  sublinks:
+    - title: Digital
+      url: /digital.html
 - title: "About"
   url: /about/
   excerpt: "About"
