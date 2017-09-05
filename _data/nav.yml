@@ -1,17 +1,16 @@
 # Site navigation links
-
 - title: Portfolio
-  href: /portfolio/
+  href: "/portfolio/"
   subcategories:
     - subtitle: Digital
-      subhref: /digital/
+      subhref: "/digital/"
     - subtitle: Photography
-      subhref: /photography/
+      subhref: "/photography/"
 - title: "About"
-  href: /about/
+  href: "/about/"
   excerpt: "About"
 - title: "Contact"
-  href: /contact/
+  href: "/contact/"
   excerpt: "Contact Us!"
 
   
