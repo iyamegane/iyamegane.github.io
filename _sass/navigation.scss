@@ -46,7 +46,7 @@
 	font-family: "Trebuchet MS", sans-serif;
 	font-size: 20;
 	font-weight: 700;
-	color: #647796;
+	color: silver;
 	text-transform: uppercase;
 	text-decoration: none;
 	
@@ -138,7 +138,7 @@
 	font-family: "Trebuchet MS", sans-serif;
 	font-size: (20 * .92);
 	text-decoration: none;
-	color: #647796;
+	color: silver;
 	font-weight: 400;
 	
 	/* Background & effects */
@@ -243,8 +243,8 @@
 		top: 21px;
 		height: 9px;
 		width: 20px;
-		border-top: 2px solid #647796;
-		border-bottom: 2px solid #647796;
+		border-top: 2px solid silver;
+		border-bottom: 2px solid silver;
 		z-index: 1;
 	}
 
@@ -255,12 +255,12 @@
 		top: 13px;
 		height: 3px;
 		width: 20px;
-		border-bottom: 2px solid #647796;
+		border-bottom: 2px solid silver;
 		z-index: 1;
 	}
 
 	#hideMenu>a::after, #hideMenu>a::before {
-		border-color: #647796;
+		border-color: silver;
 	}
 	
 	.navbar {
