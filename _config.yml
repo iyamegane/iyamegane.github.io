@@ -62,4 +62,4 @@ exclude:
   - package.json
   - spec
   - tmp
-  - comic.md
+  - /comic/
