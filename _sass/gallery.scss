@@ -1,20 +1,45 @@
-gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+$default-width: 50%;
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* force scrollbar, prevents initial gap */
+html {
+  overflow-y: scroll;
+}
+
+.image-wrapper,
+.gallery-sizer {
+  width: $default-width;
+}
+
+.image-gallery {
+
+  display: block;
+
+  .image-wrapper {
     float: left;
-    width: 180px;
+    padding: 3px;
+
+    // hack required if no padding
+    .image {
+      width: 100.1%;
+      width: calc( 100% + 1px );
+      height: 100%;
+    }
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
 }
 
-gallery:hover {
-    border: 1px solid #777;
-}
-
-gallery img {
-    width: 100%;
-    height: auto;
-}
-
-desc {
-    padding: 15px;
-    text-align: center;
+.caption {
+  position: static;
+  color: #AAA;
 }
