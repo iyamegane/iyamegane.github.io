@@ -3,4 +3,4 @@ layout: gallery
 permalink: /portfolio/
 title: "Portfolio"
 ---
-dsds
+{% include gallery-layout.html gallery=site.data.galleries.anime %}
