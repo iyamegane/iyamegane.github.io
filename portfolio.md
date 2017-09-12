@@ -4,25 +4,183 @@ permalink: /portfolio/
 title: "Portfolio"
 ---
 
-<div class="gallery cf">
-  <div>
-    <img src="" />
-  </div>
-  <div>
-    <img src="https://i2.wp.com/fightingfornippon.com/wp-content/uploads/2017/04/TohruShrug.jpg?resize=900%2C506" />
-  </div>
-  <div>
-    <img src="https://i2.wp.com/fightingfornippon.com/wp-content/uploads/2017/04/TohruShrug.jpg?resize=900%2C506" />
-  </div>
-  <div>
-    <img src="https://i2.wp.com/fightingfornippon.com/wp-content/uploads/2017/04/TohruShrug.jpg?resize=900%2C506" />
-  </div>
-  <div>
-    <img src="https://i2.wp.com/fightingfornippon.com/wp-content/uploads/2017/04/TohruShrug.jpg?resize=900%2C506" />
-  </div>  <div>
-    <img src="https://i2.wp.com/fightingfornippon.com/wp-content/uploads/2017/04/TohruShrug.jpg?resize=900%2C506" />
-  </div>
-  <div>
-    <img src="https://i2.wp.com/fightingfornippon.com/wp-content/uploads/2017/04/TohruShrug.jpg?resize=900%2C506" />
-  </div>
+<body class="gallery-page">
+
+    <div class="main-body">
+        <div class="container">
+            <div class="row">
+               
+                <div class="main-page">
+                    
+                <aside class="main-navigation">
+    <div class="main-menu">
+
+        <div class="menu-container">
+            <div class="block-keep-ratio block-keep-ratio-2-1 block-width-full home">                                    
+                <a href="index.html" class="block-keep-ratio__content  main-menu-link">
+                    <span class="main-menu-link-text">
+                        HOME    
+                    </span>                                        
+                </a>
+            </div>                                
+        </div>
+
+        <div class="menu-container">                                
+            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">                                    
+                <a href="about.html" class="main-menu-link about block-keep-ratio__content flexbox-center">
+                    <i class="fa fa-user fa-4x main-menu-link-icon"></i>
+                    ABOUT
+                </a>                                    
+            </div>
+
+            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
+                <a href="contact.html" class="main-menu-link contact block-keep-ratio__content flexbox-center">
+                    <i class="fa fa-envelope-o fa-4x main-menu-link-icon"></i>
+                    CONTACT
+                </a>                                
+            </div>    
+        </div>   
+
+        <div class="menu-container">
+            <div class="block-keep-ratio block-keep-ratio-1-1 block-keep-ratio-md-2-1 block-width-full gallery">                                    
+                <a href="gallery.html" class="main-menu-link  block-keep-ratio__content">
+                    <span class="main-menu-link-text">
+                        GALLERY    
+                    </span>                                            
+                </a>                                    
+            </div>                                
+        </div>
+
+        <!-- sidebar carousel -->
+        <div class="menu-container">
+            <div class="mauris">
+                <div id="carousel-menu" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="assets/images/slider-img-1.png" alt="slider">
+                            <div class="carousel-caption menu-caption">
+                                mauris vita
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/menu-bg-home.png" alt="slider">
+                            <div class="carousel-caption menu-caption">
+                                lorem ipsum
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-menu" role="button" data-slide="prev">
+                        <span class="fa fa-caret-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-menu" role="button" data-slide="next">
+                        <span class="fa fa-caret-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div> <!-- .mauris -->
+        </div>
+    </div> <!-- main-menu -->
+</aside> <!-- main-navigation -->
+                <div class="content-main gallery_main">
+
+    <div class="gallery-main-inner">
+        
+        <div class="col-md-12 gallery_title_main">
+            <div class="gallery_title">
+                <h3>GALLERY</h3>
+                <h4>RESPONSIVE DESIGN</h4>
+            </div><br style="clear:both;"/>
+        </div>
+
+        <div id="content" class="gallery-images-container">
+            <div class="box-gutter"></div>
+            <div class="box-sizer"></div>
+            <div class="box">
+                <a href="assets/images/gallery-item-1-big.jpg"><img alt="Agra picture" src="assets/images/gallery-item-1.jpg"></a>
+            </div>
+            <div class="box">
+                <a href="assets/images/gallery-item-4-big.jpg"><img alt="Agra picture" src="assets/images/gallery-item-4.jpg"></a>
+            </div>
+            <div class="box">
+                <a href="assets/images/gallery-item-6-big.jpg"><img alt="Agra picture" src="assets/images/gallery-item-6.jpg"></a>
+            </div>
+            <div class="box">
+                <a href="assets/images/gallery-item-2-big.jpg"><img alt="Agra picture" src="assets/images/gallery-item-2.jpg"></a>
+            </div>
+            <div class="box">
+                <a href="assets/images/gallery-item-5-big.jpg"><img alt="Agra picture" src="assets/images/gallery-item-5.jpg"></a>
+            </div>
+            <div class="box">
+                <a href="assets/images/gallery-item-7-big.jpg"><img alt="Agra picture" src="assets/images/gallery-item-7.jpg"></a>
+            </div>
+            <div class="box">
+                <a href="assets/images/gallery-item-8-big.jpg"><img alt="Agra picture" src="assets/images/gallery-item-8.jpg"></a>
+            </div>
+            <div class="box">
+                <a href="assets/images/gallery-item-3-big.jpg"><img alt="Agra picture" src="assets/images/gallery-item-3.jpg"></a>
+            </div>
+        </div>                
+
+        <div class="row text-center view_more_main">
+           <a href="#" class="btn view_more">view more</a>
+        </div>
+
+    </div>
+
 </div>
+                    
+                </div> <!-- .main-page -->
+            </div> <!-- .row -->
+            <footer class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
+        <p class="copyright">Copyright © 2017 Jekyller
+        | More Templates <a href="https://github.com/jekyller" target="_blank" title="jekyller">Jekyller</a></p>
+    </div>    
+</footer>  
+        </div> <!-- .container -->
+    </div>  <!-- .main-body -->
+
+
+<!-- for gallery -->
+<script src="assets/js/imagesloaded.3.1.8.min.js"></script>
+<script src="assets/js/jquery.masonry.3.2.1.min.js"></script> <!-- http://masonry.desandro.com/ -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script> <!-- http://dimsemenov.com/plugins/magnific-popup/ -->
+
+<script>
+    function init_masonry(){
+      var $container = $('#content');
+      $container.imagesLoaded( function(){
+          $container.masonry({
+            itemSelector: '.box',
+            isAnimated: true
+        });
+      });
+    }
+    $(document).ready(function(){
+        
+        //Init jQuery Masonry layout
+        init_masonry();
+        // Magnific Popup
+        $('.gallery-images-container').magnificPopup({
+            delegate: 'a', // child items selector, by clicking on it popup will open
+            type: 'image',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+            },
+        });
+        //Select menu onchange
+        $("#collapsed-navbar").change(function () {
+            window.location = $(this).val();
+        });
+    
+    });
+</script>
+
+</body>
+</html> 
