@@ -4,7 +4,7 @@ title: oops
 permalink: /portfolio/
 ---
 
-
+<center>
 <img src="https://i.imgur.com/feZefuc.png"/>
 <div class="gallery">
   <a target="_blank" href="https://i.imgur.com/feZefuc.png">
@@ -22,4 +22,4 @@ permalink: /portfolio/
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
- 
+</center>
