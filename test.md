@@ -3,7 +3,7 @@ layout: galleries
 title: oops
 permalink: /test/
 ---
-        <div class="flexbin flexbin-margin">
+ <div class="flexbin flexbin-margin">
             <a href="https://unsplash.com/">
                 <img src="https://source.unsplash.com/featured/?man" />
             </a>
@@ -25,5 +25,5 @@ permalink: /test/
             <a href="https://unsplash.com/">
                 <img src="https://source.unsplash.com/featured/?dog" />
             </a>
-        </div>
+        </div>       
 
