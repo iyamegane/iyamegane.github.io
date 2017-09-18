@@ -26,5 +26,4 @@ permalink: /test/
                 <img src="https://source.unsplash.com/featured/?dog" />
             </a>
         </div>
-    </body>
 
