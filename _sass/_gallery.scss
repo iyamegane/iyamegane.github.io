@@ -1,5 +1,4 @@
 .gallery {
-    border: 1px solid #ccc;
     margin: 1px;
     float: left;
     align: center;
@@ -7,12 +6,13 @@
 }
 
 .gallery:hover {
-    border: 10px solid black;
+    border: 3px solid gray;
 }
 
 .gallery img {
     width: 100%;
     height: 300px;
+    border: 1px solid black;
 }
 
 .desc {
