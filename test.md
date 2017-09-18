@@ -3,20 +3,6 @@ layout: galleries
 title: oops
 permalink: /test/
 ---
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Flexbin &mdash; Flexible &amp; Pure CSS Gallery Layout Like Google Images and 500px.com</title>
-        <meta name="viewport" content="width:device-width, initial-scale=1" />
-        <link href="flexbin.css" type="text/css" rel="stylesheet" media="all" />
-        <style>
-            body {
-                margin: 0;
-            }
-        </style>
-    </head>
-    <body>
         <div class="flexbin flexbin-margin">
             <a href="https://unsplash.com/">
                 <img src="https://source.unsplash.com/featured/?man" />
@@ -41,4 +27,4 @@ permalink: /test/
             </a>
         </div>
     </body>
-</html>
+
