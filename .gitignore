@@ -1,11 +1,9 @@
-starving-artist-jekyll-theme-*.gem
 _site
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+_asset_bundler_cache
 .sass-cache
-.asset-cache
 .jekyll-metadata
-
-.bin
-.vendor
-bin
-vendor/ruby
-Gemfile.lock

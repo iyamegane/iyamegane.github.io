@@ -1,56 +1,17 @@
-# Starving Artist Jekyll Theme
-![Starving Artist Jekyll Theme screenshot](screenshot.png)
+# Skinny Bones Jekyll Starter
 
-# Install as Gem Theme
-Jekyll requires Ruby so make sure Ruby is installed before you begin.
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
-### Start a New Site
-- Install Jekyll and Bundler
-  - `gem install bundler`
-- Create a New Site
-  - `jekyl new mysite`
-- Move into that directory
-  - `cd mysite`
-- Install Required Gems
-  - `bundle install`
-- Verify
-  - Run `jekyll serve`
-  - Browse to [http://localhost:4000](http://localhost:4000)
-- Download Starving Artist Theme
-  - Replace the line `gem "minima"` with this:
-    - `gem "starving-artist-jekyll-theme"`
-  - Run `bundle install`
-- Tell Jekyll to use Starving Artist Theme
-  - Open `_config.yml` and change the line `theme: minima` to this:
-    - `theme: starving-artist-jekyll-theme`
-- Import the Starving Artist CSS
-  - Open your `css/style.css` and change the line `@import "minima;"` to this:
-    - `@import "starving-artist";`
+I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
 
+![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
 
-### Migrate an Existing Site
-**NOTE** This requires you to be upgraded to at least Jekyll 3.2 which added support for themes.
+---
 
-- Download Starving Artist Theme
-  - Replace the line `gem "minima"` with this:
-    - `gem "starving-artist-jekyll-theme"`
-  - Run `bundle install`
-- Tell Jekyll to use Starving Artist Theme
-  - Open `_config.yml` and change the line `theme: minima` to this:
-    - `theme: starving-artist-jekyll-theme`
-- Import the Starving Artist CSS
-  - Open your `css/style.css` and change the line `@import "minima;"` to this:
-    - `@import "starving-artist";`
+## Notable Features
 
-# Jekyll 2.x Method
-Jekyll requires Ruby so make sure Ruby is installed before you begin.
-
-- Download this site
-  - `git clone https://github.com/chrisanthropic/starving-artist-jekyll-theme.git`
-- Move into its directory
-  - `cd starving-artist-jekyll-theme`
-- Install Required Gems
-  - `bundle install`
-- Verify
-  - Run `jekyll serve`
-  - Browse to [http://localhost:4000](http://localhost:4000)
+* Jekyll 3.x and GitHub Pages compatible.
+* Stylesheet built using Sass.
+* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
+* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
+* And more.

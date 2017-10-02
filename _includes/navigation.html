@@ -1,9 +1,16 @@
-<ul class="menu">  
+<nav class="navbar">
+  <nav class="row">
+    <div id="nav">
+      <ul class="columns medium-8 left primary-nav">
+	
+        <li id="toggleMenu"><a href="#nav">Menu</a></li>
+	      <li id="hideMenu"><a href="#toggleMenu">Menu</a></li>
+        
 	{% for nav in site.data.nav %}
 	  {% if nav.subcategories != null %}
 	    <li class="dropdown">
-	      <a href="#">{{ nav.title }}</a>
-		<ul class="dropdown-child">
+	      <a href="{{ site.github.url }}{{ nav.url }}">{{ nav.title }}</a>
+		<ul>
 		  {% for subcategory in nav.subcategories %}
 		    <li><a href="{{ site.github.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
 		  {% endfor %}
@@ -12,7 +19,7 @@
 	{% elsif nav.external-subcategories != null %}
 	    <li class="dropdown">
 	      <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
-		<ul class="dropdown-child">
+		<ul>
 		  {% for subcategory in nav.external-subcategories %}
 		    <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
 		  {% endfor %}
@@ -22,10 +29,19 @@
 		  <li class="active"><a href="{{ nav.href }}">{{ nav.title }}</a></li>
 		{% else %}
 		  {% if nav.href %}
-		  <li class="header-nav"><a href="{{ site.github.url }}{{ nav.href }}">{{ nav.title }}</a></li>
+		  <li><a href="{{ site.github.url }}{{ nav.href }}">{{ nav.title }}</a></li>
 		    {% elsif nav.external %}
-		    <li class="header-nav"><a href="{{ nav.external }}">{{ nav.title }}</a></li>
+		    <li><a href="{{ nav.external }}">{{ nav.title }}</a></li>
 		  {% endif %}
 	  {% endif %}
 	{% endfor %}
-</ul>
+      </ul>
+
+      <ul class="columns medium-4 right primary-nav">
+	{% for socials in site.data.socials %}
+	  <li class="right"><a href="{{ socials.href }}"><span class="icon-{{ socials.title }} socials"></span></a></li>
+	{% endfor %}
+      </ul>
+    </div>
+  </nav>
+</nav>
