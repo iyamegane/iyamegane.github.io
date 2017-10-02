@@ -1,73 +1,63 @@
 # Site settings
-title: PHOTORAMA
-email: ""
-description: "Photo Journal"
-url: "iamnot.moe"
-baseurl: "/portfolio"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
-share: true
+title: Starving Artist Jekyll Theme
+email: ctarwater@chrisanthropic.com
+author: Chrisanthropic
 
-# Owner/author information
-owner:
-  name:   photorama
-  avatar: avatar.png
-  favicon: favicon.ico
-  info: photography website template
+keywords: jekyll, jekyll theme, portfolio theme, artist theme
+description: Witty description here.
 
-# Settings for comments helper
-# Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
-# Set 'provider' to false to turn commenting off globally.
-#Set 'provider: false' to disable comments globally.
-# Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
-#
-comments :
-  provider : disqus
-  disqus :
-    short_name : ""
+# Only use this if you are serving your site via Github Pages
+github:
+  url: "https://chrisanthropic.github.io/starving-artist-jekyll-theme"
 
-# Internal nav
-nav:
-  - GALLERY: "iamnot.moe/gallery"  
-  - JOURNAL: "iamnot.moe/journal"
-  - ABOUT: "iamnot.moe/about"
+header: images/logo.png
 
-# All translation keys
-translations:
- # 404.html
-  permalink: "/404.html"
+# Formspree contact Form
+contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
 
-# Server
-destination:      	 ./_site
-port:             	 4000
+
+# Exclude our ruby stuff
+exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, starving-artist-jekyll-theme-*.gem]
 
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-paginate_path: "/journal/page:num/"
-permalink: "/journal/:title/"
-categories_path: "/journal/category/"
-tags_path: "/journal/tag/"
-gems: 
- - jekyll-paginate
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+kramdown:
+  input: GFM
 
-# SiteMap
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-    include_posts:
-        - "/writing/"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
+theme: starving-artist-jekyll-theme
+  
+# Plugins
+gems:
+  - jekyll-feed
+
+feed:
+  path: atom.xml
+  
+# Compress our Css
+#sass:
+#    style: :compressed
+
+include: ['_pages']
+
+permalink: /blog/:year/:title
+
+collections:
+  - galleries
+
+#### SEO Stuff
+# Google Analytics
+google_universal_analytics: 
+google_universal_analytics_cookiedomain: auto
+
+# Facebook Opengraph
+facebook_user:
+facebook_app_id:                                #enter your App ID
+facebook_locale: en_US
+facebook_page:                                  #the URL of your Facebook Page
+facebook_image: images/author.jpg                      #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+
+# Twitter Cards
+twitter_user: 
+twitter_card: true
+twitter_image: images/author.jpg                       #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
